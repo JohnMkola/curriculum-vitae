@@ -1,0 +1,33 @@
+body,html{
+  background-color: blanchedalmond;
+  padding: 5px;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* HOME PAGE */
+.layout_header{
+  min-height: 30px;
+  border-bottom: 2px solid gray;
+  text-align: center;
+}
+.layout_nav{
+  height: fit-content;
+  padding: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(245, 193, 117);
+  margin-top: 10px;
+}
+.layout_nav > *{
+  color: chartreuse;
+}
+.layout_nav:hover > *{
+  color: rgb(0, 140, 255);
+}
+.layout_nav:active > *{
+  color: rgb(233, 81, 157);
+}
+
+/* ANOTHER PAGE */
